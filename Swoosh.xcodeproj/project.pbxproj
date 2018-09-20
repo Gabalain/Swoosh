@@ -12,6 +12,7 @@
 		B5DAD5FA215285BB00FC3D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DAD5F8215285BB00FC3D33 /* Main.storyboard */; };
 		B5DAD5FC215285BD00FC3D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DAD5FB215285BD00FC3D33 /* Assets.xcassets */; };
 		B5DAD5FF215285BD00FC3D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DAD5FD215285BD00FC3D33 /* LaunchScreen.storyboard */; };
+		B5DAD6072152978900FC3D33 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DAD6062152978900FC3D33 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5DAD5FB215285BD00FC3D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5DAD5FE215285BD00FC3D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5DAD600215285BD00FC3D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DAD6062152978900FC3D33 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B5DAD5F3215285BB00FC3D33 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				B5DAD6082152979400FC3D33 /* Views */,
 				B5DAD5F4215285BB00FC3D33 /* AppDelegate.swift */,
 				B5DAD5F6215285BB00FC3D33 /* ViewController.swift */,
 				B5DAD5F8215285BB00FC3D33 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				B5DAD600215285BD00FC3D33 /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		B5DAD6082152979400FC3D33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5DAD6062152978900FC3D33 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				B5DAD5F7215285BB00FC3D33 /* ViewController.swift in Sources */,
 				B5DAD5F5215285BB00FC3D33 /* AppDelegate.swift in Sources */,
+				B5DAD6072152978900FC3D33 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7W47GFKL3;
 				INFOPLIST_FILE = Swoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7W47GFKL3;
 				INFOPLIST_FILE = Swoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
